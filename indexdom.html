@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckpointDOM</title>
+ 
+<!-- bootstrap link CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+<!-- font awesome link CSS -->
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+<!-- local link css -->
+<link rel="stylesheet" href="./cssdom.css"> 
+</head>
+
+
+<body>
+
+<!-- the headre part -->
+<header>
+<!-- the navbar part -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <span id="ecoutousime"> Ecoutrism Cart </span>  </a> 
+      <button
+       class="navbar-toggler"
+       type="button" 
+       data-bs-toggle="collapse" 
+       data-bs-target="#navbarScroll" 
+       aria-controls="navbarScroll"
+       aria-expanded="false" 
+       aria-label="Toggle navigation"
+       >
+       <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<!-- the main part -->
+<main> 
+<!-- the section part -->
+
+<section class="ecotourisme-card">
+    <div class="total-price-container">
+      <span>Total Price :</span>
+      <span class="total-price"> 0 </span>
+      <span> DT TTC </span>
+    </div>
+    <div class="cards-container">
+      <!-- Product 1 -->
+      <div class="card" style="width: 15rem">
+        <img src="https://www.marhba.com/images/alternatif/alternatif2020/Camping_Tunisie.jpg"
+          class="card-img-top"
+          alt="camping"/>
+
+        <div class="card-body">
+          <h5 class="card-title">Camping </h5>
+          <p class="card-text"> the act of staying and sleeping in an outside area for one or more days and nights .</p>
+          <span class="unit-price">100 </span><span> DT TTC </span>
+        </div>
+
+        <div class="card-body">
+          <i class="fas fa-plus-circle plus-btn"></i>
+          <span class="qute"> 0 </span>
+          <i class="fas fa-minus-circle minus-btn"></i>
+        </div>
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-heart"></i>
+          </li>
+        </ul>
+      </div> 
+
+      <!-- Product 2 -->
+      <div class="card" style="width: 15rem">
+        <img src="https://www.dadaboudir.com/wp-content/uploads/2016/11/treking_in_Uttarakhand.jpg"
+         class="card-img-top" alt="Trekking" />
+        <div class="card-body">
+          <h5 class="card-title"> Trekking</h5>
+          <p class="card-text"> the act of making a long journey across difficult country on foot, usually for pleasure.</p>
+          <span class="unit-price"> 40 </span><span> DT TTC </span>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-plus-circle plus-btn"></i>
+          <span class="qute"> 0 </span>
+          <i class="fas fa-minus-circle minus-btn"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> 
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-heart"></i>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="card" style="width: 15rem">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Discover_Scuba_Diving_--_St._Croix%2C_US_Virgin_Islands.jpg"
+         class="card-img-top" alt="diving" />
+        <div class="card-body">
+          <h5 class="card-title">Diving</h5>
+          <p class="card-text"> an activity in which people jump head first into water, or move down under the water with special breathing equipment.</p>
+          <span class="unit-price"> 90 </span><span> DT TTC </span>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-plus-circle plus-btn"></i>
+          <span class="qute"> 0 </span>
+          <i class="fas fa-minus-circle minus-btn"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-heart"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+<section>
+<p> aziz darraji </p>
+</section>
+</main>
+<!--the footer part -->
+<footer></footer>
+
+<script src="./javascriptdom.js"></script>
+</body>
+</html>

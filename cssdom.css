@@ -1,0 +1,122 @@
+/* change taille of icone */
+i {
+  cursor: pointer;
+
+  font-size: 30px;
+}
+
+#ecoutousime {
+  color: yellowgreen;
+  background-color: white;
+}
+
+/*"ecotourisme-card */
+.ecotourisme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3%;
+  margin: 50px 10%; /* out */
+  padding: 20px; /*  int */
+}
+.cards-container {
+  background-image: url("./assests/rteventlogo.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.total-price-container {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 20px; /* int */
+}
+
+.total-price-container span {
+  font-size: 10px;
+}
+/*cards-container */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card {
+  margin: 2% /* out */;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2px; /*int */
+}
+
+.unit-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+.plus-btn,
+.minus-btn {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.plus-btn:hover {
+  color: rgb(30, 95, 30);
+}
+
+.minus-btn:hover {
+  color: rgb(199, 16, 16);
+}
+
+.list-group-item i {
+  margin: 10px;
+}
+
+.fa-trash-alt {
+  font-size: 30px;
+}
+..plus-btn,
+.minus-btn {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.plus-btn:hover {
+  color: rgb(30, 95, 30);
+}
+
+.minus-btn:hover {
+  color: rgb(199, 16, 16);
+}
+
+.list-group-item i {
+  margin: 10px;
+}
+
+.fa-trash-alt {
+  font-size: 30px;
+}
+
+..plus-btn,
+.minus-btn {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.plus-btn:hover {
+  color: rgb(30, 95, 30);
+}
+
+.minus-btn:hover {
+  color: rgb(199, 16, 16);
+}
+
+.list-group-item i {
+  margin: 10px;
+}
+
+.fa-trash-alt {
+  font-size: 30px;
+}
+.fa-heart {
+  color: red;
+}
